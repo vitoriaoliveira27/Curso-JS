@@ -1,0 +1,11 @@
+let anoValidar = 1900;
+
+function ehBissextoOuNao(ano) {
+    if(ano%4 == 0 || ano%400 == 0){
+        alert('É bissexto');
+    } else {
+        alert('Não é bissexto');
+    }
+}
+
+ehBissextoOuNao(anoValidar);

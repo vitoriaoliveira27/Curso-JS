@@ -1,0 +1,13 @@
+function checarPalindromo(palavra) {
+    palavra = palavra.toLowerCase();
+    var separandoAsLetras = palavra.split('');
+    var palavraInvertida = separandoAsLetras.reverse();
+    palavraInvertida = palavraInvertida.join("");
+    if (palavra == palavraInvertida) {
+        console.log('É palindromo');
+    } else {
+        console.log('Não é palindromo');
+    }
+}
+
+checarPalindromo('Reviver');
